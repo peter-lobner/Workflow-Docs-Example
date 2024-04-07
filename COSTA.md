@@ -26,14 +26,14 @@ Trust in M\&S can be built and increased by a comprehensible credibility assessm
    ```
 3. For some other questions (especially in Chapters Verification and Validation) I also need you to tick off the corresponding check box to determine the **status** level of credibility.
 
-   * [ ] **a**: No SQA procedures are documented
+   * [x] **a**: No SQA procedures are documented
    * [ ] **b**: SQA procedures from the vendor are referenced
    * [ ] **c**: An audit is conducted with the vendor to confirm that quality procedures are conducted and documented during the software development process
    * [ ] **d**: Benchmark verification test cases, provided by the vendor, are run on the user's computer platform. The results are compared to vendor results and documented
 4. Last but not least, as same as for the status I need you to determine the **target** level of credibility, too.
 
    * [ ] **a**: No SQA procedures are documented
-   * [ ] **b**: SQA procedures from the vendor are referenced
+   * [x] **b**: SQA procedures from the vendor are referenced
    * [ ] **c**: An audit is conducted with the vendor to confirm that quality procedures are conducted and documented during the software development process
    * [ ] **d**: Benchmark verification test cases, provided by the vendor, are run on the user's computer platform. The results are compared to vendor results and documented
 5. That's it! Once we are done with all the questions, you will receive a credibility spider which you can use for documentation and communication of your M\&S results.
@@ -53,6 +53,7 @@ Without any context information, there is very little I can do. So, let's collec
 You already know who I am and now I would like to know more about you. So, before we take-off, with whom do I have the pleasure to collaborate? Please tell me your name(s):
 
 ```
+dfgfdg
 ```
 
 Nice to meet you!
@@ -141,15 +142,15 @@ The objective of SQA is to ensure that the software is functioning correctly and
 #### Status Level
 
 * [ ] **a**: No SQA procedures are documented.
-* [ ] **b**: SQA procedures from the vendor are referenced.
+* [x] **b**: SQA procedures from the vendor are referenced.
 * [ ] **c**: An audit is conducted with the vendor to confirm that quality procedures are conducted and documented during the software development process.
 * [ ] **d**: Benchmark verification test cases, provided by the vendor, are run on the user's computer platform. The results are compared to vendor results and documented.
 
 #### Target Level
 
 * [ ] **a**: No SQA procedures are documented.
-* [x] **b**: SQA procedures from the vendor are referenced.
-* [ ] **c**: An audit is conducted with the vendor to confirm that quality procedures are conducted and documented during the software development process.
+* [ ] **b**: SQA procedures from the vendor are referenced.
+* [x] **c**: An audit is conducted with the vendor to confirm that quality procedures are conducted and documented during the software development process.
 * [ ] **d**: Benchmark verification test cases, provided by the vendor, are run on the user's computer platform. The results are compared to vendor results and documented.
 
 **[Back to 3. Verification](#3-Verification)**
@@ -168,8 +169,8 @@ The objective of NCV is to demonstrate correct implementation and functioning of
 #### Status Level
 
 * [ ] **a**: NCV is not performed.
-* [ ] **b**: The numerical solution was compared to an accurate benchmark solution from another verified code.
-* [x] **c**: Discretization error was quantified by comparison to an exact solution as the discretization was refined, i.e. the numerical solution asymptotically approaches the exact solution as the discretization is refined.
+* [x] **b**: The numerical solution was compared to an accurate benchmark solution from another verified code.
+* [ ] **c**: Discretization error was quantified by comparison to an exact solution as the discretization was refined, i.e. the numerical solution asymptotically approaches the exact solution as the discretization is refined.
 * [ ] **d**: In addition to the quantification of discretization error and the execution of a grid convergence study as described in level c, the observed order of accuracy was quantified and compared to the theoretical order of accuracy.
 
 #### Target Level
@@ -198,8 +199,8 @@ Calculation verification helps to ensure that the spatial and temporal convergen
 
 #### Status Level
 
-* [ ] **a**: No grid or time-step convergence analysis was performed to estimate the discretization error.
-* [x] **b**: Applicable grid or time-step convergence analyses are performed and documented and their respective convergence behaviors are observed to be stable, but the discretization error is not estimated.
+* [x] **a**: No grid or time-step convergence analysis was performed to estimate the discretization error.
+* [ ] **b**: Applicable grid or time-step convergence analyses are performed and documented and their respective convergence behaviors are observed to be stable, but the discretization error is not estimated.
 * [ ] **c**: Applicable grid or time-step convergence analyses are performed and documented and discretization error is estimated.
 
 #### Target Level
@@ -221,9 +222,9 @@ Calculation verification helps to ensure that the spatial and temporal convergen
 
 #### Status Level
 
-* [ ] **a**: No solver parameter sensitivity is performed.
+* [x] **a**: No solver parameter sensitivity is performed.
 * [ ] **b**: No solver parameter sensitivity is performed. Solver parameters are established based on values from a previously verified computational model. This is documented in a sufficiently traceable manner.
-* [x] **c**: Problem-specific sensitivity study is performed and documented on solver parameters, confirming that changes in simulation results due to changes in the solver parameters are negligible relative to the modeling & simulation accuracy goal.
+* [ ] **c**: Problem-specific sensitivity study is performed and documented on solver parameters, confirming that changes in simulation results due to changes in the solver parameters are negligible relative to the modeling & simulation accuracy goal.
 
 #### Target Level
 
@@ -251,8 +252,8 @@ Calculation verification helps to ensure that the spatial and temporal convergen
 #### Target Level
 
 * [ ] **a**: User errors are not analyzed.
-* [ ] **b**: Key user errors are identified, and the practitioner knows about basic mitigation concepts .
-* [x] **c**: Key user errors are identified, appropriate mechanisms for detection and mitigation are implemented and reviewed.
+* [x] **b**: Key user errors are identified, and the practitioner knows about basic mitigation concepts .
+* [ ] **c**: Key user errors are identified, appropriate mechanisms for detection and mitigation are implemented and reviewed.
 
 **[Back to 3. Verification](#3-Verification)**
 
@@ -536,19 +537,20 @@ We are almost done! There is just one final step missing: The output comparison 
 #### Documentation
 
 ```
+My Comment
 ```
 
 #### Status Level
 
 * [ ] **a**: No assessment.
-* [ ] **b**: Visual or qualitative comparison concludes sufficient agreement. What sufficient means is to be defined contextually by experts.
+* [x] **b**: Visual or qualitative comparison concludes sufficient agreement. What sufficient means is to be defined contextually by experts.
 * [ ] **c**: Differences between computational results and comparator data (e.g. experimental) are typically less than 5%. Includes consideration of relevant uncertainty, but statistical distributions for uncertainty quantification are unknown.
 * [ ] **d**: Differences between computational results and comparator data (e.g. experimental) are typically less than 5%. Statistical distributions for uncertainty quantifications are known.
 
 #### Target Level
 
 * [ ] **a**: No assessment.
-* [ ] **b**: Visual or qualitative comparison concludes sufficient agreement. What sufficient means is to be defined contextually by experts.
+* [x] **b**: Visual or qualitative comparison concludes sufficient agreement. What sufficient means is to be defined contextually by experts.
 * [ ] **c**: Differences between computational results and comparator data (e.g. experimental) are typically less than 5%. Includes consideration of relevant uncertainty, but statistical distributions for uncertainty quantification are unknown.
 * [ ] **d**: Differences between computational results and comparator data (e.g. experimental) are typically less than 5%. Statistical distributions for uncertainty quantifications are known.
 
