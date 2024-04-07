@@ -1,0 +1,15 @@
+[stdin]:99
+            if (value?.length > 40) return `{a|${value}}`;
+                      ^
+
+SyntaxError: Unexpected token '.'
+    at new Script (vm.js:88:7)
+    at createScript (vm.js:261:10)
+    at Object.runInThisContext (vm.js:309:10)
+    at Object.<anonymous> ([stdin]-wrapper:10:26)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at evalScript (internal/process/execution.js:94:25)
+    at internal/main/eval_stdin.js:29:5
+    at Socket.<anonymous> (internal/process/execution.js:207:5)
+    at Socket.emit (events.js:326:22)
+    at endReadableNT (_stream_readable.js:1241:12)
