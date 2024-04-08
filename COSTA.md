@@ -27,14 +27,14 @@ Trust in M\&S can be built and increased by a comprehensible credibility assessm
 3. For some other questions (especially in Chapters Verification and Validation) I also need you to tick off the corresponding check box to determine the **status** level of credibility.
 
    * [ ] **a**: No SQA procedures are documented
-   * [ ] **b**: SQA procedures from the vendor are referenced
+   * [x] **b**: SQA procedures from the vendor are referenced
    * [ ] **c**: An audit is conducted with the vendor to confirm that quality procedures are conducted and documented during the software development process
    * [ ] **d**: Benchmark verification test cases, provided by the vendor, are run on the user's computer platform. The results are compared to vendor results and documented
 4. Last but not least, as same as for the status I need you to determine the **target** level of credibility, too.
 
    * [ ] **a**: No SQA procedures are documented
    * [ ] **b**: SQA procedures from the vendor are referenced
-   * [ ] **c**: An audit is conducted with the vendor to confirm that quality procedures are conducted and documented during the software development process
+   * [x] **c**: An audit is conducted with the vendor to confirm that quality procedures are conducted and documented during the software development process
    * [ ] **d**: Benchmark verification test cases, provided by the vendor, are run on the user's computer platform. The results are compared to vendor results and documented
 5. That's it! Once we are done with all the questions, you will receive a credibility spider which you can use for documentation and communication of your M\&S results.
 
@@ -53,6 +53,7 @@ Without any context information, there is very little I can do. So, let's collec
 You already know who I am and now I would like to know more about you. So, before we take-off, with whom do I have the pleasure to collaborate? Please tell me your name(s):
 
 ```
+John Doe
 ```
 
 Nice to meet you!
@@ -62,11 +63,13 @@ Nice to meet you!
 First things first: Please tell me what product it is we're talking about
 
 ```
+e-machine
 ```
 
 and/or the project name this credibility assessment is required for
 
 ```
+W-V
 ```
 
 ### 2.3 Question of Interest
@@ -74,6 +77,7 @@ and/or the project name this credibility assessment is required for
 Now, please describe the question of interest, i.e., the specific question, decision, or concern that is being addressed:
 
 ```
+What is the reliability of a design element of an e-machine at external excitations?
 ```
 
 ### 2.4 Simulation Task
@@ -81,11 +85,13 @@ Now, please describe the question of interest, i.e., the specific question, deci
 Good! And what does this all have to do with M\&S? Please let me know, what the simulation task or the simulation goal is for the specific question of interest.
 
 ```
+What are the local accelerations at a design element of an e-machine at external excitations using M&S?
 ```
 
 The more I know, the better I can support you! Please tell me the related simulation domain(s):
 
 ```
+solid mechanics, fluid dynamics
 ```
 
 ### 2.5 Context of Use
@@ -93,6 +99,7 @@ The more I know, the better I can support you! Please tell me the related simula
 Almost there! Now, I need you to specify the context of use (COU) for M\&S. The COU defines the specific role and scope of the computational model used to address the question of interest. It should include a detailed statement of what will be modeled and how the outputs from the computational model will be used to answer or inform the question of interest.
 
 ```
+Finite element analysis (FEA) will be used to determine the transfer function to convert external excitations into local accelerations at a design element. The obtained local accelerations are then used as inputs for reliability analysis.
 ```
 
 ### 2.6 Quantities of Interest
@@ -100,6 +107,7 @@ Almost there! Now, I need you to specify the context of use (COU) for M\&S. The 
 Can you tell me the quantities of interest (QOI) which are the relevant outputs to inform a decision?
 
 ```
+accelerations
 ```
 
 **[Back to main chapter list](#COSTA)**
@@ -149,8 +157,8 @@ The objective of SQA is to ensure that the software is functioning correctly and
 
 * [ ] **a**: No SQA procedures are documented.
 * [ ] **b**: SQA procedures from the vendor are referenced.
-* [x] **c**: An audit is conducted with the vendor to confirm that quality procedures are conducted and documented during the software development process.
-* [ ] **d**: Benchmark verification test cases, provided by the vendor, are run on the user's computer platform. The results are compared to vendor results and documented.
+* [ ] **c**: An audit is conducted with the vendor to confirm that quality procedures are conducted and documented during the software development process.
+* [x] **d**: Benchmark verification test cases, provided by the vendor, are run on the user's computer platform. The results are compared to vendor results and documented.
 
 **[Back to 3. Verification](#3-Verification)**
 
@@ -194,12 +202,13 @@ Calculation verification helps to ensure that the spatial and temporal convergen
 #### Documentation
 
 ```
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 ```
 
 #### Status Level
 
-* [x] **a**: No grid or time-step convergence analysis was performed to estimate the discretization error.
-* [ ] **b**: Applicable grid or time-step convergence analyses are performed and documented and their respective convergence behaviors are observed to be stable, but the discretization error is not estimated.
+* [ ] **a**: No grid or time-step convergence analysis was performed to estimate the discretization error.
+* [x] **b**: Applicable grid or time-step convergence analyses are performed and documented and their respective convergence behaviors are observed to be stable, but the discretization error is not estimated.
 * [ ] **c**: Applicable grid or time-step convergence analyses are performed and documented and discretization error is estimated.
 
 #### Target Level
@@ -221,8 +230,8 @@ Calculation verification helps to ensure that the spatial and temporal convergen
 
 #### Status Level
 
-* [x] **a**: No solver parameter sensitivity is performed.
-* [ ] **b**: No solver parameter sensitivity is performed. Solver parameters are established based on values from a previously verified computational model. This is documented in a sufficiently traceable manner.
+* [ ] **a**: No solver parameter sensitivity is performed.
+* [x] **b**: No solver parameter sensitivity is performed. Solver parameters are established based on values from a previously verified computational model. This is documented in a sufficiently traceable manner.
 * [ ] **c**: Problem-specific sensitivity study is performed and documented on solver parameters, confirming that changes in simulation results due to changes in the solver parameters are negligible relative to the modeling & simulation accuracy goal.
 
 #### Target Level
@@ -244,8 +253,8 @@ Calculation verification helps to ensure that the spatial and temporal convergen
 
 #### Status Level
 
-* [x] **a**: User errors are not analyzed.
-* [ ] **b**: Key user errors are identified, and the practitioner knows about basic mitigation concepts .
+* [ ] **a**: User errors are not analyzed.
+* [x] **b**: Key user errors are identified, and the practitioner knows about basic mitigation concepts .
 * [ ] **c**: Key user errors are identified, appropriate mechanisms for detection and mitigation are implemented and reviewed.
 
 #### Target Level
@@ -292,8 +301,8 @@ Model form includes not only the form of the governing equations but also the fo
 
 #### Status Level
 
-* [x] **a**: Influence of model form assumptions are not explored.
-* [ ] **b**: Influence of expected key model form assumptions are explored and documented, to indicate that major effects of the regarded system for the COU with the QOIs are represented by the model equations or the model approaches.
+* [ ] **a**: Influence of model form assumptions are not explored.
+* [x] **b**: Influence of expected key model form assumptions are explored and documented, to indicate that major effects of the regarded system for the COU with the QOIs are represented by the model equations or the model approaches.
 * [ ] **c**: Comprehensive evaluation and documentation of the model form assumptions and their implementation, that determine the governing equations and model approaches, to prove that the model represents in a well-defined manner and with sufficient accuracy the regarded system for the COU with the QOIs.
 
 #### Target Level
@@ -315,8 +324,8 @@ Model form includes not only the form of the governing equations but also the fo
 
 #### Status Level
 
-* [ ] **a**: Sensitivity analysis is not performed.
-* [x] **b**: Sensitivity analysis on expected key parameters is performed and documented.
+* [x] **a**: Sensitivity analysis is not performed.
+* [ ] **b**: Sensitivity analysis on expected key parameters is performed and documented.
 * [ ] **c**: Comprehensive sensitivity analysis is performed and documented.
 
 #### Target Level
@@ -332,11 +341,12 @@ Model form includes not only the form of the governing equations but also the fo
 #### Documentation
 
 ```
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 ```
 
 #### Status Level
 
-* [ ] **a**: Uncertainties are not identified.
+* [x] **a**: Uncertainties are not identified.
 * [ ] **b**: Uncertainties on expected key inputs are identified and qualitatively assessed w\.r.t. the simulation results.
 * [ ] **c**: Uncertainties on a subset of expected key inputs are identified and quantified and are propagated to quantitatively assess the effect on the simulation results. The not quantified key inputs are qualitatively assessed.
 * [ ] **d**: Uncertainties on all key inputs are identified and quantified, and are propagated to quantitatively assess the effect on the simulation results.
@@ -344,7 +354,7 @@ Model form includes not only the form of the governing equations but also the fo
 #### Target Level
 
 * [ ] **a**: Uncertainties are not identified.
-* [ ] **b**: Uncertainties on expected key inputs are identified and qualitatively assessed w\.r.t. the simulation results.
+* [x] **b**: Uncertainties on expected key inputs are identified and qualitatively assessed w\.r.t. the simulation results.
 * [ ] **c**: Uncertainties on a subset of expected key inputs are identified and quantified and are propagated to quantitatively assess the effect on the simulation results. The not quantified key inputs are qualitatively assessed.
 * [ ] **d**: Uncertainties on all key inputs are identified and quantified, and are propagated to quantitatively assess the effect on the simulation results.
 
@@ -367,13 +377,14 @@ The credibility ascpect comparator addresses the test samples and the test condi
 #### Documentation
 
 ```
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 ```
 
 #### Status Level
 
 * [ ] **a**: No test sample is used.
 * [ ] **b**: A single sample is used, with a single set of characteristics.
-* [ ] **c**: Multiple samples are used representing a range of characteristics near nominal. Some of the key characteristics of these test samples are measured. The number of samples is not enough to be statistically relevant.
+* [x] **c**: Multiple samples are used representing a range of characteristics near nominal. Some of the key characteristics of these test samples are measured. The number of samples is not enough to be statistically relevant.
 * [ ] **d**: A statistically relevant number of samples is used that represent the nominal and the expected extreme values of the parameters. All key characteristics of the samples are measured.
 
 #### Target Level
@@ -381,7 +392,7 @@ The credibility ascpect comparator addresses the test samples and the test condi
 * [ ] **a**: No test sample is used.
 * [ ] **b**: A single sample is used, with a single set of characteristics.
 * [ ] **c**: Multiple samples are used representing a range of characteristics near nominal. Some of the key characteristics of these test samples are measured. The number of samples is not enough to be statistically relevant.
-* [ ] **d**: A statistically relevant number of samples is used that represent the nominal and the expected extreme values of the parameters. All key characteristics of the samples are measured.
+* [x] **d**: A statistically relevant number of samples is used that represent the nominal and the expected extreme values of the parameters. All key characteristics of the samples are measured.
 
 **[Back to 4. Validation](#4-Validation)**
 
@@ -392,20 +403,21 @@ The credibility ascpect comparator addresses the test samples and the test condi
 #### Documentation
 
 ```
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 ```
 
 #### Status Level
 
 * [ ] **a**: Samples are not characterized or are characterized with gross observations, and measurement uncertainty is not addressed.
 * [ ] **b**: Uncertainty analysis incorporates instrument accuracy only.
-* [ ] **c**: Uncertainty analysis incorporates instrument accuracy and repeatability (i.e., statistical treatment of repeated measurements).
+* [x] **c**: Uncertainty analysis incorporates instrument accuracy and repeatability (i.e., statistical treatment of repeated measurements).
 * [ ] **d**: Uncertainty analysis incorporates a comprehensive uncertainty quantification, which includes instrument accuracy, repeatability, and other conditions affecting the measurements.
 
 #### Target Level
 
 * [ ] **a**: Samples are not characterized or are characterized with gross observations, and measurement uncertainty is not addressed.
 * [ ] **b**: Uncertainty analysis incorporates instrument accuracy only.
-* [ ] **c**: Uncertainty analysis incorporates instrument accuracy and repeatability (i.e., statistical treatment of repeated measurements).
+* [x] **c**: Uncertainty analysis incorporates instrument accuracy and repeatability (i.e., statistical treatment of repeated measurements).
 * [ ] **d**: Uncertainty analysis incorporates a comprehensive uncertainty quantification, which includes instrument accuracy, repeatability, and other conditions affecting the measurements.
 
 **[Back to 4. Validation](#4-Validation)**
@@ -427,14 +439,14 @@ If the test condition is temperature, this factor addresses the range of tempera
 
 * [ ] **a**: No test condition is used.
 * [ ] **b**: A single condition is used, with a single set of characteristics.
-* [ ] **c**: Multiple conditions are used representing a range of characteristics near nominal. Some of the key characteristics of these test conditions are measured. The number of conditions is not enough to be statistically relevant.
+* [x] **c**: Multiple conditions are used representing a range of characteristics near nominal. Some of the key characteristics of these test conditions are measured. The number of conditions is not enough to be statistically relevant.
 * [ ] **d**: A statistically relevant number of conditions is used that represent the nominal and the expected extreme values of the parameters. All key characteristics of the conditions are measured.
 
 #### Target Level
 
 * [ ] **a**: No test condition is used.
 * [ ] **b**: A single condition is used, with a single set of characteristics.
-* [ ] **c**: Multiple conditions are used representing a range of characteristics near nominal. Some of the key characteristics of these test conditions are measured. The number of conditions is not enough to be statistically relevant.
+* [x] **c**: Multiple conditions are used representing a range of characteristics near nominal. Some of the key characteristics of these test conditions are measured. The number of conditions is not enough to be statistically relevant.
 * [ ] **d**: A statistically relevant number of conditions is used that represent the nominal and the expected extreme values of the parameters. All key characteristics of the conditions are measured.
 
 **[Back to 4. Validation](#4-Validation)**
@@ -446,13 +458,14 @@ If the test condition is temperature, this factor addresses the range of tempera
 #### Documentation
 
 ```
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 ```
 
 #### Status Level
 
 * [ ] **a**: Test conditions are not characterized or are characterized with gross observations, and measurement uncertainty is not addressed.
 * [ ] **b**: Uncertainty analysis incorporates instrument accuracy only.
-* [ ] **c**: Uncertainty analysis incorporates instrument accuracy and repeatability (i.e., statistical treatment of repeated measurements).
+* [x] **c**: Uncertainty analysis incorporates instrument accuracy and repeatability (i.e., statistical treatment of repeated measurements).
 * [ ] **d**: Uncertainty analysis incorporates a comprehensive uncertainty quantification, which includes instrument accuracy, repeatability, and other conditions affecting the measurements.
 
 #### Target Level
@@ -460,7 +473,7 @@ If the test condition is temperature, this factor addresses the range of tempera
 * [ ] **a**: Test conditions are not characterized or are characterized with gross observations, and measurement uncertainty is not addressed.
 * [ ] **b**: Uncertainty analysis incorporates instrument accuracy only.
 * [ ] **c**: Uncertainty analysis incorporates instrument accuracy and repeatability (i.e., statistical treatment of repeated measurements).
-* [ ] **d**: Uncertainty analysis incorporates a comprehensive uncertainty quantification, which includes instrument accuracy, repeatability, and other conditions affecting the measurements.
+* [x] **d**: Uncertainty analysis incorporates a comprehensive uncertainty quantification, which includes instrument accuracy, repeatability, and other conditions affecting the measurements.
 
 **[Back to 4. Validation](#4-Validation)**
 
@@ -488,7 +501,7 @@ The aspects associated with establishing applicability of the computational mode
 
 * [ ] **a**: From validation activities, no QOIs are related to those for the COU.
 * [ ] **b**: The QOIs from the validation activities are related, though not identical, to those for the COU.
-* [ ] **c**: A subset of the QOIs from the validation activities are sufficiently relevant, complete, comparable to those for the COU.
+* [x] **c**: A subset of the QOIs from the validation activities are sufficiently relevant, complete, comparable to those for the COU.
 * [ ] **d**: All QOIs from the validation activities are sufficiently relevant, complete, comparable to those for the COU.
 
 #### Target Level
@@ -496,7 +509,7 @@ The aspects associated with establishing applicability of the computational mode
 * [ ] **a**: From validation activities, no QOIs are related to those for the COU.
 * [ ] **b**: The QOIs from the validation activities are related, though not identical, to those for the COU.
 * [ ] **c**: A subset of the QOIs from the validation activities are sufficiently relevant, complete, comparable to those for the COU.
-* [ ] **d**: All QOIs from the validation activities are sufficiently relevant, complete, comparable to those for the COU.
+* [x] **d**: All QOIs from the validation activities are sufficiently relevant, complete, comparable to those for the COU.
 
 **[Back to 4. Validation](#4-Validation)**
 
@@ -542,7 +555,7 @@ We are almost done! There is just one final step missing: The output comparison 
 
 * [ ] **a**: No assessment.
 * [ ] **b**: Visual or qualitative comparison concludes sufficient agreement. What sufficient means is to be defined contextually by experts.
-* [ ] **c**: Differences between computational results and comparator data (e.g. experimental) are typically less than 5%. Includes consideration of relevant uncertainty, but statistical distributions for uncertainty quantification are unknown.
+* [x] **c**: Differences between computational results and comparator data (e.g. experimental) are typically less than 5%. Includes consideration of relevant uncertainty, but statistical distributions for uncertainty quantification are unknown.
 * [ ] **d**: Differences between computational results and comparator data (e.g. experimental) are typically less than 5%. Statistical distributions for uncertainty quantifications are known.
 
 #### Target Level
@@ -550,7 +563,7 @@ We are almost done! There is just one final step missing: The output comparison 
 * [ ] **a**: No assessment.
 * [ ] **b**: Visual or qualitative comparison concludes sufficient agreement. What sufficient means is to be defined contextually by experts.
 * [ ] **c**: Differences between computational results and comparator data (e.g. experimental) are typically less than 5%. Includes consideration of relevant uncertainty, but statistical distributions for uncertainty quantification are unknown.
-* [ ] **d**: Differences between computational results and comparator data (e.g. experimental) are typically less than 5%. Statistical distributions for uncertainty quantifications are known.
+* [x] **d**: Differences between computational results and comparator data (e.g. experimental) are typically less than 5%. Statistical distributions for uncertainty quantifications are known.
 
 **[Back to 4. Validation](#4-Validation)**
 
