@@ -1,15 +1,121 @@
-[stdin]:99
-            if (value?.length > 40) return `{a|${value}}`;
-                      ^
-
-SyntaxError: Unexpected token '.'
-    at new Script (vm.js:88:7)
-    at createScript (vm.js:261:10)
-    at Object.runInThisContext (vm.js:309:10)
-    at Object.<anonymous> ([stdin]-wrapper:10:26)
-    at Module._compile (internal/modules/cjs/loader.js:999:30)
-    at evalScript (internal/process/execution.js:94:25)
-    at internal/main/eval_stdin.js:29:5
-    at Socket.<anonymous> (internal/process/execution.js:207:5)
-    at Socket.emit (events.js:326:22)
-    at endReadableNT (_stream_readable.js:1241:12)
+<svg width="675" height="450" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" baseProfile="full" viewBox="0 0 675 450">
+<rect width="675" height="450" x="0" y="0" id="0" fill="none"></rect>
+<path d="M369 225A31.5 31.5 0 1 1 368.8 221.9A31.5 31.5 0 0 1 369 225M337.5 225A0 0 0 1 0 337.5 225A0 0 0 0 0 337.5 225M432 225A94.5 94.5 0 1 1 431.5 215.6A94.5 94.5 0 0 1 432 225M400.5 225A63 63 0 1 0 400.2 231.3A63 63 0 0 0 400.5 225M495 225A157.5 157.5 0 1 1 494.2 209.3A157.5 157.5 0 0 1 495 225M463.5 225A126 126 0 1 0 462.9 237.6A126 126 0 0 0 463.5 225" fill="rgb(250,250,250)" fill-opacity="0.2"></path>
+<path d="M400.5 225A63 63 0 1 1 400.2 218.7A63 63 0 0 1 400.5 225M369 225A31.5 31.5 0 1 0 368.8 228.1A31.5 31.5 0 0 0 369 225M463.5 225A126 126 0 1 1 462.9 212.4A126 126 0 0 1 463.5 225M432 225A94.5 94.5 0 1 0 431.5 234.4A94.5 94.5 0 0 0 432 225" fill="rgb(210,219,238)" fill-opacity="0.2"></path>
+<path d="M337.5 225A0 0 0 1 1 337.5 225A0 0 0 0 1 337.5 225M369 225A31.5 31.5 0 1 1 368.8 221.9A31.5 31.5 0 0 1 369 225M400.5 225A63 63 0 1 1 400.2 218.7A63 63 0 0 1 400.5 225M432 225A94.5 94.5 0 1 1 431.5 215.6A94.5 94.5 0 0 1 432 225M463.5 225A126 126 0 1 1 462.9 212.4A126 126 0 0 1 463.5 225M495 225A157.5 157.5 0 1 1 494.2 209.3A157.5 157.5 0 0 1 495 225" fill="none" stroke="#E0E6F1"></path>
+<path d="M337.5 225L337.5 67.5" fill="none" stroke="#bbb" stroke-linecap="round"></path>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:10px;font-family:sans-serif;" xml:space="preserve" y="-5" transform="translate(337.5 52.5)" fill="#bbb">Software Quality Assurance</text>
+<path d="M337.5 225L273.4 81.1" fill="none" stroke="#bbb" stroke-linecap="round"></path>
+<text dominant-baseline="central" text-anchor="end" style="font-size:10px;font-family:sans-serif;" xml:space="preserve" transform="translate(267.3379 67.4134)" fill="#bbb">Numerical Code Verification</text>
+<path d="M337.5 225L220.5 119.6" fill="none" stroke="#bbb" stroke-linecap="round"></path>
+<text dominant-baseline="central" text-anchor="end" style="font: normal normal 12px sans-serif" xml:space="preserve" transform="translate(209.3075 109.575)" fill="#bbb">Discretization Error</text>
+<path d="M337.5 225L187.7 176.3" fill="none" stroke="#bbb" stroke-linecap="round"></path>
+<text dominant-baseline="central" text-anchor="end" style="font-size:10px;font-family:sans-serif;" xml:space="preserve" transform="translate(173.4428 171.6946)" fill="#bbb">Numerical Solver Error</text>
+<path d="M337.5 225L180.9 241.5" fill="none" stroke="#bbb" stroke-linecap="round"></path>
+<text dominant-baseline="central" text-anchor="end" style="font: normal normal 12px sans-serif" xml:space="preserve" transform="translate(165.945 243.0312)" fill="#bbb">User Error Analysis</text>
+<path d="M337.5 225L201.1 303.7" fill="none" stroke="#bbb" stroke-linecap="round"></path>
+<text dominant-baseline="central" text-anchor="end" style="font: normal normal 12px sans-serif" xml:space="preserve" transform="translate(188.1106 311.25)" fill="#bbb">Model Form</text>
+<path d="M337.5 225L244.9 352.4" fill="none" stroke="#bbb" stroke-linecap="round"></path>
+<text dominant-baseline="central" text-anchor="end" style="font-size:10px;font-family:sans-serif;" xml:space="preserve" transform="translate(236.107 364.5554)" fill="#bbb">Model Inputs &amp; Parameters Sensitivities</text>
+<path d="M337.5 225L304.8 379.1" fill="none" stroke="#bbb" stroke-linecap="round"></path>
+<text dominant-baseline="central" text-anchor="end" style="font-size:10px;font-family:sans-serif;" xml:space="preserve" transform="translate(301.6352 393.7305)" fill="#bbb">Model Inputs &amp; Parameters Uncertainties</text>
+<path d="M337.5 225L370.2 379.1" fill="none" stroke="#bbb" stroke-linecap="round"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:sans-serif;" xml:space="preserve" transform="translate(373.3648 393.7305)" fill="#bbb">Suitability of Test Samples</text>
+<path d="M337.5 225L430.1 352.4" fill="none" stroke="#bbb" stroke-linecap="round"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:sans-serif;" xml:space="preserve" transform="translate(438.893 364.5554)" fill="#bbb">Uncertainty of Test Sample Measurements</text>
+<path d="M337.5 225L473.9 303.8" fill="none" stroke="#bbb" stroke-linecap="round"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:sans-serif;" xml:space="preserve" transform="translate(486.8894 311.25)" fill="#bbb">Suitability of Test Conditions</text>
+<path d="M337.5 225L494.1 241.5" fill="none" stroke="#bbb" stroke-linecap="round"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:8px;font-family:sans-serif;" xml:space="preserve" transform="translate(509.055 243.0312)" fill="#bbb">Uncertainty of Test Condition Measurements</text>
+<path d="M337.5 225L487.3 176.3" fill="none" stroke="#bbb" stroke-linecap="round"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:10px;font-family:sans-serif;" xml:space="preserve" transform="translate(501.5572 171.6946)" fill="#bbb">Relevance of the QOIs</text>
+<path d="M337.5 225L454.5 119.6" fill="none" stroke="#bbb" stroke-linecap="round"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:8px;font-family:sans-serif;" xml:space="preserve" transform="translate(465.6925 109.575)" fill="#bbb">Relevance of the Validation Activities to the COU</text>
+<path d="M337.5 225L401.6 81.1" fill="none" stroke="#bbb" stroke-linecap="round"></path>
+<text dominant-baseline="central" text-anchor="start" style="font: normal normal 12px sans-serif" transform="translate(407.6621 67.4134)" fill="#bbb">Assessment</text>
+<path d="M337.5 162L311.9 167.4L314.1 203.9L307.5 215.3L306.2 228.3L310.2 240.8L300.5 276L337.5 225L337.5 162" fill="none" stroke="#5470c6" stroke-width="2" stroke-linejoin="round"></path>
+<path d="M337.5 130.5L286.3 109.9L267.3 161.8L247.6 195.8L243.5 234.9L255.7 272.2L282 301.5L337.5 225L337.5 130.5" fill="none" stroke="green" stroke-width="2" stroke-linejoin="round"></path>
+<path d="M337.5 225" fill="none" stroke="#FF6746" stroke-width="2" stroke-linejoin="round"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,337.5,162)" fill="#5470c6"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,311.8756,167.4466)" fill="#5470c6"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,314.0909,203.9224)" fill="#5470c6"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,307.5417,215.266)" fill="#5470c6"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,306.1726,228.2926)" fill="#5470c6"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,310.2202,240.75)" fill="#5470c6"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,300.4695,275.9681)" fill="#5470c6"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,337.5,225)" fill="#5470c6"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,337.5,225)" fill="#5470c6"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,337.5,225)" fill="#5470c6"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,337.5,225)" fill="#5470c6"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,337.5,225)" fill="#5470c6"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,337.5,225)" fill="#5470c6"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,337.5,225)" fill="#5470c6"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,337.5,225)" fill="#5470c6"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,337.5,130.5)" fill="green"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,286.2512,109.8933)" fill="green"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,267.2728,161.7672)" fill="green"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,247.6252,195.7979)" fill="green"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,243.5177,234.8779)" fill="green"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,255.6606,272.25)" fill="green"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,281.9543,301.4521)" fill="green"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,337.5,225)" fill="green"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,337.5,225)" fill="green"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,337.5,225)" fill="green"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,337.5,225)" fill="green"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,337.5,225)" fill="green"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,337.5,225)" fill="green"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,337.5,225)" fill="green"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,337.5,225)" fill="green"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,337.5,225)" fill="#FF6746"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,337.5,225)" fill="#FF6746"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,337.5,225)" fill="#FF6746"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,337.5,225)" fill="#FF6746"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,337.5,225)" fill="#FF6746"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,337.5,225)" fill="#FF6746"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,337.5,225)" fill="#FF6746"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,337.5,225)" fill="#FF6746"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,337.5,225)" fill="#FF6746"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,337.5,225)" fill="#FF6746"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,337.5,225)" fill="#FF6746"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,337.5,225)" fill="#FF6746"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,337.5,225)" fill="#FF6746"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,337.5,225)" fill="#FF6746"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,337.5,225)" fill="#FF6746"></path>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:14px;font-family:sans-serif;" y="-7" transform="translate(337.5 153)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">2</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:14px;font-family:sans-serif;" y="-7" transform="translate(311.8756 158.4466)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">2</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:14px;font-family:sans-serif;" y="-7" transform="translate(314.0909 194.9224)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">1</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:14px;font-family:sans-serif;" y="-7" transform="translate(307.5417 206.266)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">1</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:14px;font-family:sans-serif;" y="-7" transform="translate(306.1726 219.2926)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">1</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:14px;font-family:sans-serif;" y="-7" transform="translate(310.2202 231.75)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">1</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:14px;font-family:sans-serif;" y="-7" transform="translate(300.4695 266.9681)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">2</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:14px;font-family:sans-serif;" y="-7" transform="translate(337.5 121.5)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">3</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:14px;font-family:sans-serif;" y="-7" transform="translate(286.2512 100.8933)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">4</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:14px;font-family:sans-serif;" y="-7" transform="translate(267.2728 152.7672)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">3</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:14px;font-family:sans-serif;" y="-7" transform="translate(247.6252 186.7979)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">3</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:14px;font-family:sans-serif;" y="-7" transform="translate(243.5177 225.8779)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">3</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:14px;font-family:sans-serif;" y="-7" transform="translate(255.6606 263.25)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">3</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:14px;font-family:sans-serif;" y="-7" transform="translate(281.9543 292.4521)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">3</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:14px;font-family:sans-serif;" y="-7" transform="translate(337.5 216)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">0</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:14px;font-family:sans-serif;" y="-7" transform="translate(337.5 216)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">0</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:14px;font-family:sans-serif;" y="-7" transform="translate(337.5 216)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">0</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:14px;font-family:sans-serif;" y="-7" transform="translate(337.5 216)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">0</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:14px;font-family:sans-serif;" y="-7" transform="translate(337.5 216)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">0</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:14px;font-family:sans-serif;" y="-7" transform="translate(337.5 216)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">0</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:14px;font-family:sans-serif;" y="-7" transform="translate(337.5 216)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">0</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:14px;font-family:sans-serif;" y="-7" transform="translate(337.5 216)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">0</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:14px;font-family:sans-serif;" y="-7" transform="translate(337.5 216)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">0</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:14px;font-family:sans-serif;" y="-7" transform="translate(337.5 216)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">0</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:14px;font-family:sans-serif;" y="-7" transform="translate(337.5 216)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">0</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:14px;font-family:sans-serif;" y="-7" transform="translate(337.5 216)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">0</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:14px;font-family:sans-serif;" y="-7" transform="translate(337.5 216)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">0</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:14px;font-family:sans-serif;" y="-7" transform="translate(337.5 216)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">0</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:14px;font-family:sans-serif;" y="-7" transform="translate(337.5 216)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">0</text>
+<path d="M-5 -5l237.6 0l0 24l-237.6 0Z" transform="translate(223.7 5)" fill="rgb(0,0,0)" fill-opacity="0" stroke="#ccc" stroke-width="0"></path>
+<path d="M3.5 0L21.5 0A3.5 3.5 0 0 1 25 3.5L25 10.5A3.5 3.5 0 0 1 21.5 14L3.5 14A3.5 3.5 0 0 1 0 10.5L0 3.5A3.5 3.5 0 0 1 3.5 0" transform="translate(223.7 5)" fill="#5470c6"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:12px;font-family:sans-serif;" x="30" y="7" transform="translate(223.7 5)" fill="#a4a4a4">Status</text>
+<path d="M3.5 0L21.5 0A3.5 3.5 0 0 1 25 3.5L25 10.5A3.5 3.5 0 0 1 21.5 14L3.5 14A3.5 3.5 0 0 1 0 10.5L0 3.5A3.5 3.5 0 0 1 3.5 0" transform="translate(297.9 5)" fill="green"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:12px;font-family:sans-serif;" x="30" y="7" transform="translate(297.9 5)" fill="#a4a4a4">Target</text>
+<path d="M3.5 0L21.5 0A3.5 3.5 0 0 1 25 3.5L25 10.5A3.5 3.5 0 0 1 21.5 14L3.5 14A3.5 3.5 0 0 1 0 10.5L0 3.5A3.5 3.5 0 0 1 3.5 0" transform="translate(372.7 5)" fill="#FF6746"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:12px;font-family:sans-serif;" x="30" y="7" transform="translate(372.7 5)" fill="#a4a4a4">Minimum</text>
+<path d="M-5 -5l10 0l0 10l-10 0Z" transform="translate(337.5 445)" fill="rgb(0,0,0)" fill-opacity="0" stroke="#ccc" stroke-width="0"></path>
+</svg>
