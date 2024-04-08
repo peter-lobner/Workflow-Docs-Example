@@ -33,39 +33,39 @@
 <text dominant-baseline="central" text-anchor="start" style="font-size:8px;font-family:sans-serif;" xml:space="preserve" transform="translate(465.6925 109.575)" fill="#bbb">Relevance of the Validation Activities to the COU</text>
 <path d="M337.5 225L401.6 81.1" fill="none" stroke="#bbb" stroke-linecap="round"></path>
 <text dominant-baseline="central" text-anchor="start" style="font: normal normal 12px sans-serif" transform="translate(407.6621 67.4134)" fill="#bbb">Assessment</text>
-<path d="M337.5 162L311.9 167.4L314.1 203.9L307.5 215.3L306.2 228.3L310.2 240.8L300.5 276L337.5 225L337.5 162" fill="none" stroke="#5470c6" stroke-width="2" stroke-linejoin="round"></path>
-<path d="M337.5 130.5L286.3 109.9L267.3 161.8L247.6 195.8L243.5 234.9L255.7 272.2L282 301.5L337.5 225L337.5 130.5" fill="none" stroke="green" stroke-width="2" stroke-linejoin="round"></path>
+<path d="M337.5 162L311.9 167.4L290.7 182.8L277.6 205.5L274.8 231.6L282.9 256.5L319 250.5L331 255.8L357.1 317.4L393 301.5L419.3 272.3L431.5 234.9L427.4 195.8L337.5 225L375.9 138.7L337.5 162" fill="none" stroke="#5470c6" stroke-width="2" stroke-linejoin="round"></path>
+<path d="M337.5 99L286.3 109.9L267.3 161.8L247.6 195.8L243.5 234.9L255.7 272.2L282 301.5L324.4 286.6L363.7 348.2L393 301.5L419.3 272.3L462.8 238.2L457.3 186.1L337.5 225L388.7 109.9L337.5 99" fill="none" stroke="green" stroke-width="2" stroke-linejoin="round"></path>
 <path d="M337.5 225" fill="none" stroke="#FF6746" stroke-width="2" stroke-linejoin="round"></path>
 <path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,337.5,162)" fill="#5470c6"></path>
 <path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,311.8756,167.4466)" fill="#5470c6"></path>
-<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,314.0909,203.9224)" fill="#5470c6"></path>
-<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,307.5417,215.266)" fill="#5470c6"></path>
-<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,306.1726,228.2926)" fill="#5470c6"></path>
-<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,310.2202,240.75)" fill="#5470c6"></path>
-<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,300.4695,275.9681)" fill="#5470c6"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,290.6819,182.8448)" fill="#5470c6"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,277.5834,205.5319)" fill="#5470c6"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,274.8451,231.5853)" fill="#5470c6"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,282.9404,256.5)" fill="#5470c6"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,318.9848,250.484)" fill="#5470c6"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,330.9508,255.8116)" fill="#5470c6"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,357.1477,317.4349)" fill="#5470c6"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,393.0457,301.4521)" fill="#5470c6"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,419.3394,272.25)" fill="#5470c6"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,431.4823,234.8779)" fill="#5470c6"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,427.3748,195.7979)" fill="#5470c6"></path>
 <path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,337.5,225)" fill="#5470c6"></path>
-<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,337.5,225)" fill="#5470c6"></path>
-<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,337.5,225)" fill="#5470c6"></path>
-<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,337.5,225)" fill="#5470c6"></path>
-<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,337.5,225)" fill="#5470c6"></path>
-<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,337.5,225)" fill="#5470c6"></path>
-<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,337.5,225)" fill="#5470c6"></path>
-<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,337.5,225)" fill="#5470c6"></path>
-<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,337.5,130.5)" fill="green"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,375.9366,138.67)" fill="#5470c6"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,337.5,99)" fill="green"></path>
 <path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,286.2512,109.8933)" fill="green"></path>
 <path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,267.2728,161.7672)" fill="green"></path>
 <path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,247.6252,195.7979)" fill="green"></path>
 <path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,243.5177,234.8779)" fill="green"></path>
 <path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,255.6606,272.25)" fill="green"></path>
 <path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,281.9543,301.4521)" fill="green"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,324.4016,286.6233)" fill="green"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,363.6969,348.2466)" fill="green"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,393.0457,301.4521)" fill="green"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,419.3394,272.25)" fill="green"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,462.8098,238.1706)" fill="green"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,457.3331,186.0639)" fill="green"></path>
 <path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,337.5,225)" fill="green"></path>
-<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,337.5,225)" fill="green"></path>
-<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,337.5,225)" fill="green"></path>
-<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,337.5,225)" fill="green"></path>
-<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,337.5,225)" fill="green"></path>
-<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,337.5,225)" fill="green"></path>
-<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,337.5,225)" fill="green"></path>
-<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,337.5,225)" fill="green"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,388.7488,109.8933)" fill="green"></path>
 <path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,337.5,225)" fill="#FF6746"></path>
 <path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,337.5,225)" fill="#FF6746"></path>
 <path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,337.5,225)" fill="#FF6746"></path>
@@ -83,18 +83,32 @@
 <path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(4,0,0,4,337.5,225)" fill="#FF6746"></path>
 <text dominant-baseline="central" text-anchor="middle" style="font-size:14px;font-family:sans-serif;" y="-7" transform="translate(337.5 153)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">2</text>
 <text dominant-baseline="central" text-anchor="middle" style="font-size:14px;font-family:sans-serif;" y="-7" transform="translate(311.8756 158.4466)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">2</text>
-<text dominant-baseline="central" text-anchor="middle" style="font-size:14px;font-family:sans-serif;" y="-7" transform="translate(314.0909 194.9224)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">1</text>
-<text dominant-baseline="central" text-anchor="middle" style="font-size:14px;font-family:sans-serif;" y="-7" transform="translate(307.5417 206.266)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">1</text>
-<text dominant-baseline="central" text-anchor="middle" style="font-size:14px;font-family:sans-serif;" y="-7" transform="translate(306.1726 219.2926)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">1</text>
-<text dominant-baseline="central" text-anchor="middle" style="font-size:14px;font-family:sans-serif;" y="-7" transform="translate(310.2202 231.75)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">1</text>
-<text dominant-baseline="central" text-anchor="middle" style="font-size:14px;font-family:sans-serif;" y="-7" transform="translate(300.4695 266.9681)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">2</text>
-<text dominant-baseline="central" text-anchor="middle" style="font-size:14px;font-family:sans-serif;" y="-7" transform="translate(337.5 121.5)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">3</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:14px;font-family:sans-serif;" y="-7" transform="translate(290.6819 173.8448)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">2</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:14px;font-family:sans-serif;" y="-7" transform="translate(277.5834 196.5319)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">2</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:14px;font-family:sans-serif;" y="-7" transform="translate(274.8451 222.5853)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">2</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:14px;font-family:sans-serif;" y="-7" transform="translate(282.9404 247.5)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">2</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:14px;font-family:sans-serif;" y="-7" transform="translate(318.9848 241.484)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">1</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:14px;font-family:sans-serif;" y="-7" transform="translate(330.9508 246.8116)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">1</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:14px;font-family:sans-serif;" y="-7" transform="translate(357.1477 308.4349)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">3</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:14px;font-family:sans-serif;" y="-7" transform="translate(393.0457 292.4521)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">3</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:14px;font-family:sans-serif;" y="-7" transform="translate(419.3394 263.25)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">3</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:14px;font-family:sans-serif;" y="-7" transform="translate(431.4823 225.8779)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">3</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:14px;font-family:sans-serif;" y="-7" transform="translate(427.3748 186.7979)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">3</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:14px;font-family:sans-serif;" y="-7" transform="translate(375.9366 129.67)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">3</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:14px;font-family:sans-serif;" y="-7" transform="translate(337.5 90)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">4</text>
 <text dominant-baseline="central" text-anchor="middle" style="font-size:14px;font-family:sans-serif;" y="-7" transform="translate(286.2512 100.8933)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">4</text>
 <text dominant-baseline="central" text-anchor="middle" style="font-size:14px;font-family:sans-serif;" y="-7" transform="translate(267.2728 152.7672)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">3</text>
 <text dominant-baseline="central" text-anchor="middle" style="font-size:14px;font-family:sans-serif;" y="-7" transform="translate(247.6252 186.7979)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">3</text>
 <text dominant-baseline="central" text-anchor="middle" style="font-size:14px;font-family:sans-serif;" y="-7" transform="translate(243.5177 225.8779)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">3</text>
 <text dominant-baseline="central" text-anchor="middle" style="font-size:14px;font-family:sans-serif;" y="-7" transform="translate(255.6606 263.25)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">3</text>
 <text dominant-baseline="central" text-anchor="middle" style="font-size:14px;font-family:sans-serif;" y="-7" transform="translate(281.9543 292.4521)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">3</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:14px;font-family:sans-serif;" y="-7" transform="translate(324.4016 277.6233)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">2</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:14px;font-family:sans-serif;" y="-7" transform="translate(363.6969 339.2466)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">4</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:14px;font-family:sans-serif;" y="-7" transform="translate(393.0457 292.4521)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">3</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:14px;font-family:sans-serif;" y="-7" transform="translate(419.3394 263.25)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">3</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:14px;font-family:sans-serif;" y="-7" transform="translate(462.8098 229.1706)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">4</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:14px;font-family:sans-serif;" y="-7" transform="translate(457.3331 177.0639)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">4</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:14px;font-family:sans-serif;" y="-7" transform="translate(388.7488 100.8933)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">4</text>
 <text dominant-baseline="central" text-anchor="middle" style="font-size:14px;font-family:sans-serif;" y="-7" transform="translate(337.5 216)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">0</text>
 <text dominant-baseline="central" text-anchor="middle" style="font-size:14px;font-family:sans-serif;" y="-7" transform="translate(337.5 216)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">0</text>
 <text dominant-baseline="central" text-anchor="middle" style="font-size:14px;font-family:sans-serif;" y="-7" transform="translate(337.5 216)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">0</text>
